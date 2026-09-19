@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset / raw data
+data/
+
+# Archives
+archive/
+archive.zip
+
+# Generated prediction history
+prediction_history.csv
+
+# Generated results
+results/
+
+# Temporary files
+*.tmp
+*.temp
