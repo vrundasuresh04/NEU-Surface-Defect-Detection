@@ -71,3 +71,23 @@ The model classifies images into six surface defect categories:
           |
           v
      Streamlit Web App
+
+     ## Application Screenshots
+
+### Streamlit Application
+![Streamlit Home](screenshots/streamlit_home.png)
+
+### Prediction Result
+![Prediction Result](screenshots/prediction_result.png)
+
+### Grad-CAM Explainability
+![Grad-CAM](screenshots/gradcam.png)
+
+### Detection Summary
+![Detection Summary](screenshots/detection_summary.png)
+
+### Model Performance
+![Model Performance](screenshots/performance.png)
+
+### Batch Inference
+![Batch Inference](screenshots/batch_inference.png)
