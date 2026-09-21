@@ -72,8 +72,7 @@ The model classifies images into six surface defect categories:
           v
      Streamlit Web App
      ```
-
-     ## Application Screenshots
+## Application Screenshots
 
 ### Streamlit Application
 ![Streamlit Home](screenshots/streamlit_home.png)
