@@ -39,55 +39,35 @@ The model classifies images into six surface defect categories:
 
 ```text
                 NEU Surface Defect Dataset
-                         |
-                         v
-              Dataset Exploration
-                         |
-                         v
-                Data Preprocessing
-                         |
-                         v
-                  ResNet18 Model
-                         |
-                         v
-                   Model Training
-                         |
-                         v
-                 Model Evaluation
-                         |
-          +--------------+--------------+
-          |                             |
-          v                             v
-    Image Inference              Grad-CAM Explainability
-          |                             |
-          v                             v
-   Defect Prediction             Visual Explanation
-          |
-          v
-     Performance Analysis
-          |
-          v
-      Batch Inference
-          |
-          v
-     Streamlit Web App
-     ```
-## Application Screenshots
-
-### Streamlit Application
-![Streamlit Home](screenshots/streamlit_home.png)
-
-### Prediction Result
-![Prediction Result](screenshots/prediction_result.png)
-
-### Grad-CAM Explainability
-![Grad-CAM](screenshots/gradcam.png)
-
-### Detection Summary
-![Detection Summary](screenshots/detection_summary.png)
-
-### Model Performance
-![Model Performance](screenshots/performance.png)
-
-### Batch Inference
-![Batch Inference](screenshots/batch_inference.png)
+                           |
+                           v
+                  Dataset Exploration
+                           |
+                           v
+                  Data Preprocessing
+                           |
+                           v
+                      ResNet18 Model
+                           |
+                           v
+                     Model Training
+                           |
+                           v
+                    Model Evaluation
+                           |
+              +------------+------------+
+              |                         |
+              v                         v
+       Image Inference          Grad-CAM Explainability
+              |                         |
+              v                         v
+       Defect Prediction        Visual Explanation
+              |
+              v
+       Performance Analysis
+              |
+              v
+         Batch Inference
+              |
+              v
+         Streamlit Web App
